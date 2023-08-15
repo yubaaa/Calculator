@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(5, 4, 50, 0.821);
+}
+.calculator{
+    height: 400px;
+    width: 360px;
+    margin-top: 8%;
+    margin-left: 38%;
+}
+.headup{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 0px;
+}
+.text1{
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: "Arial Black", Gadget, sans-serif;
+
+}
+.theme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.rightthings{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.toogle{
+    background-color: rgb(30, 29, 55);
+    width: 59px;
+    height: 20px;
+    border-radius: 11px;
+}
+.Boulerouge{
+    width: 14px;
+    height: 14px;
+    background-color: rgb(156, 34, 34);
+    border-radius: 50%;
+    margin-left: 4px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.afficheur{
+    background-color: rgb(18, 18, 43);
+    height: 87px;
+    border-radius: 9px;
+    color: white;
+    text-align: end;
+    padding-top: 1px;
+    padding-right: 8px;
+    font-size: larger;
+    margin-top: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+.containerofops{
+    height: 340px;
+    background-color: rgb(32, 32, 60);
+    padding: 19px;
+    border-radius: 13px;
+}
+.options{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px 20px
+}
+.buttons{
+    height: 45px;
+    width: 65px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 20px;
+    cursor: pointer;
+    font-size: large;
+    box-shadow: -2px 6px 5px 0px rgba(44, 20, 20, 0.75);
+    font-family: "Arial Black", Gadget, sans-serif;
+font-size: 25px;
+letter-spacing: 0px;
+word-spacing: 1.2px;
+color: #4d4874;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+.specialbutton{
+    background-color: rgb(80, 80, 154);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size:larger;
+    font-weight: 600;
+}
+.bigbuttons button{
+    margin-top:  30px;
+    width: 158px;
+    height: 55px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.bigbutton1{
+    background-color: rgb(80, 80, 154);
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    box-shadow: -2px 10px 5px 0px rgba(0,0,0,0.28);
+}
+.bigbutton2{
+    background-color: rgb(223, 42, 42);
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    box-shadow: -2px 10px 5px 0px rgba(0,0,0,0.28);
+    margin-left: 2px;
+}
+@media screen and (max-width: 600px) {
+    .calculator {
+        height: 300px;
+        width: 280px;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    .text1 {
+        font-size: 24px;
+    }
+    .afficheur {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .containerofops {
+        height: 340px;
+        padding: 10px;
+    }
+    .options {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+    .buttons {
+        height: 50px;
+        width: 58px;
+        font-size: 18px;
+    }
+    .bigbuttons button {
+        margin-top: 15px;
+        width: 127px;
+        height: 48px;
+        font-size: 18px;
+        
+    }
+    .bigbutton1,
+    .bigbutton2 {
+        font-size: 18px;
+        margin-left: px;
+    }
+}
+
+
